@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Building REST services with Spring.iml" filepath="$PROJECT_DIR$/.idea/Building REST services with Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nonrest/nonrest.iml" filepath="$PROJECT_DIR$/nonrest/nonrest.iml" />
     </modules>
   </component>
 </project>
