@@ -62,4 +62,9 @@ class Employee {
                 && Objects.equals(this.role, employee.role);
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(this.id, this.name, this.role);
+    }
+
 }
