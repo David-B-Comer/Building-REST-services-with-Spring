@@ -16,13 +16,17 @@ class Employee {
     private String name;
     private String role;
 
-    Employee() {
+    public Employee() {
     }
 
     Employee(String name, String role) {
 
         this.name = name;
         this.role = role;
+    }
+
+    public Employee(Long id) {
+        this.id = id;
     }
 
     public Long getId() {
