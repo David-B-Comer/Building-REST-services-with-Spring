@@ -67,4 +67,8 @@ class Employee {
         return Objects.hash(this.id, this.name, this.role);
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" + "id=" + this.id + ", name='" + this.name + '\'' + ", role='" + this.role + '\'' + '}';
+    }
 }
