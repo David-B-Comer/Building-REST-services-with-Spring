@@ -49,4 +49,17 @@ class Employee {
         this.role = role;
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+
+        if (this == o)
+            return true;
+        if (!(o instanceof Employee))
+            return false;
+        Employee employee = (Employee) o;
+        return Objects.equals(this.id, employee.id) && Objects.equals(this.name, employee.name)
+                && Objects.equals(this.role, employee.role);
+    }
+
 }
